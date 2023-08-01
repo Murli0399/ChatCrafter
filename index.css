@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #343541;
+  font-family: Söhne, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, Helvetica Neue, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: transparent;
+  color: #fff;
+  z-index: 9999;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+#chatbox {
+  background: transparent;
+  /* height: 300px; */
+  /* border: 1px solid #ccc; */
+  /* overflow-y: scroll; */
+  /* padding: 10px; */
+  margin: 80px 0;
+}
+
+.inputBody {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  color: #fff;
+  padding: 20px;
+  z-index: 9999;
+
+  display: flex;
+  align-items: center;
+}
+
+#input {
+
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  resize: none;
+  background-color: #444654;
+  color: #faf9f9;
+  margin-right: 10px;
+  /* border: 1px solid red; */
+  --tw-shadow: 0 0 15px rgba(0, 0, 0, .1);
+  --tw-shadow-colored: 0 0 15px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 transparent), var(--tw-ring-shadow, 0 0 transparent), var(--tw-shadow);
+  font-size: 1.2rem;
+  
+}
+
+#submit {
+  /* margin-top: 10px;
+  width: 30%;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-left: 35%;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; */
+
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: #45a049;
+}
+
+.user {
+  background: #343541;
+  padding: 20px 275px;
+
+  --tw-text-opacity: 1;
+  color: rgba(236, 236, 241, var(--tw-text-opacity));
+
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.assistant {
+  margin: 5px 0;
+  background: #444654;
+  padding: 25px 275px;
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.code {
+  white-space: pre-wrap;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.character-limit {
+  color: #d1d5db;
+}
