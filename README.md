@@ -17,31 +17,19 @@ ChatCrafter is an impressive open-source project that aims to recreate the power
 ## Getting Started
 Follow the steps below to get ChatCrafter up and running:
 
-Clone the repository and navigate to the project directory.
-Install the required dependencies listed in the documentation.
-Acquire API credentials from OpenAI and add them to the configuration file.
-Train the model using your own dataset or use the pre-trained weights provided.
-Run the chatbot server and start interacting with your own AI-powered chatbot.
-Example Usage
-Python
-Copy code
-import clonechat
+1. Clone the repository and navigate to the project directory.
+2. Install the required dependencies listed in the documentation.
+3. Acquire API credentials from OpenAI and add them to the configuration file.
+4. Train the model using your own dataset or use the pre-trained weights provided.
+5. Run the chatbot server and start interacting with your own AI-powered chatbot.
 
-# Initialize the chatbot with your API credentials
-chatbot = clonechat.Chatbot(api_key="your_api_key_here")
-
-# Interact with the chatbot
-while True:
-    user_input = input("You: ")
-    response = chatbot.get_response(user_input)
-    print("AI: ", response)
-Contributing
+## Contributing
 We welcome contributions from the community to enhance GPT-CloneChat further. If you have identified bugs, want to add new features, or improve documentation, please submit a pull request.
 
-License
+## License
 GPT-CloneChat is released under the MIT License.
 
-Acknowledgments
+## Acknowledgments
 We extend our gratitude to the developers of OpenAI's GPT-3.5 and other relevant open-source projects that made this endeavor possible.
 
 Join us on this exciting journey into the world of conversational AI with GPT-CloneChat. Let your imagination run wild and build powerful chatbots that delight users with intelligent and engaging conversations! If you find this project helpful, consider giving it a star on GitHub and share it with your friends and colleagues. Happy chatting! 😄
