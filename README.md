@@ -26,10 +26,23 @@ Follow the steps below to get ChatCrafter up and running:
 ## Contributing
 We welcome contributions from the community to enhance GPT-CloneChat further. If you have identified bugs, want to add new features, or improve documentation, please submit a pull request.
 
-## License
-GPT-CloneChat is released under the MIT License.
 
 ## Acknowledgments
 We extend our gratitude to the developers of OpenAI's GPT-3.5 and other relevant open-source projects that made this endeavor possible.
 
 Join us on this exciting journey into the world of conversational AI with GPT-CloneChat. Let your imagination run wild and build powerful chatbots that delight users with intelligent and engaging conversations! If you find this project helpful, consider giving it a star on GitHub and share it with your friends and colleagues. Happy chatting! 😄
+
+
+## 🔗 Contact Me
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://murli0399.github.io/)
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/murli-khaire/)
+
+
+## Authors
+
+- [Murli Khaire](https://github.com/Murli0399)
+
+## Acknowledgements
+
+- [Masai School](https://www.masaischool.com/)
